@@ -19,7 +19,6 @@ import Roadmap from './Roadmap';
 import Clients from './clients';
 import Referral from './Referral';
 import Support from './SupporterReward';
-import SupportM from './SupportRewardMobile';
 import Footer from './Footer';
 import LoyalityRewards from './LoyalityRewards';
 // import Leaderboard from './Leaderboard';
@@ -91,7 +90,6 @@ function Main () {
       <Rewards />
       <EarlySporter />
       <Support />
-      <SupportM />
       <LoyalityRewards />
       <Referral />
       {apiState !== 'READY' || !crowdLoanRunning ? <></> : <Participate />}
