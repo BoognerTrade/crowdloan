@@ -1,4 +1,4 @@
-# Substrate Front End Template
+# Substrate Front End Template 1
 
 This template allows you to create a front-end application that connects to a
 [Substrate](https://github.com/paritytech/substrate) node back-end with minimal
